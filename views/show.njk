@@ -1,0 +1,16 @@
+{% extends "layout.njk" %}
+
+{% block content %}
+    <div id="{{ post.id }}" class="block-post">
+        <h2>
+            {{ post.title }}
+        </h2>
+        <p>
+            {{ post.body }}
+        </p>
+        <hr>
+        <p>
+            <a class="btn" href="/">&lt;&lt; Back</a>
+        </p>
+    </div>    
+{% endblock %}
